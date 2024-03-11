@@ -1,0 +1,63 @@
+body { 
+    background-color: #e1a274;
+    font-family: 'Consolas', monospace;
+}
+
+.responsive-img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#watch {
+    text-align:center;
+    font-size: 4em;
+}
+
+#tour{
+    text-align:center;
+    font-size: 4em;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#that_thing {
+    text-align:center;
+    font-size: 2em;
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+#tour-row {
+    display: flex;
+    align-items: center; /* This will align items vertically in the middle */
+    justify-content: space-between;
+    padding: 2%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
